@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="full-page">
+        
+    
+        <nav class="navbar navbar-expand-lg text-white">
+        <div class="container-fluid">
+          <img src="images/logoo.png" alt="logo" >
+          <h3 id="heading">Welcome to Kerala</h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="sign.html">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="districts.html">Where To GO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">Contact Us</a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+      
+    </div> 
+
+
+
+       <div class="formcontainer d-flex justifyy-content-centre text-white">
+            <form action="districts.html">
+                <h4>Login</h4>
+                <br>
+                <div class="mb-3 input-area" >
+                <input type="email"  placeholder="Email address"class="form-control" id="email" onkeyup="validateEmail()" >
+                <span id="emailError"></span>
+                </div>
+
+              
+                <div class="mb-3 input-area">
+                <input type="password" placeholder="Password" class="form-control" id="password" onkeyup="validatePassword()">
+                <span id="passError"></span>
+                <div id="passStrength" class="strength"></div>
+                </div>
+
+                <div class="pass-link">
+                <a href="#">Forgot password?</a>
+                
+                <input type="submit" value="Login" onclick="return validateLogin()">
+                </div>
+                <div class="signup-link">Not yet member?<a href="sign.html">Signup now</a>
+
+                </div>
+              
+              </form>
+  </div>  
+
+<script src="login.js"></script>   
+</body>
+</html>

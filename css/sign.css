@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+   
+    margin-left: 10px;
+}
+.full-page {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/tree.jpg);
+}
+.navbar img{
+    margin: 15px;
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+}
+
+.formcontainer{
+    position: absolute;
+    top: 10vh;
+    background: (0,0,0,0.2);
+    padding: 10px;
+    margin-left:35%;
+    margin-right: 37%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(11, 12, 12);
+    max-width: 400px;
+    min-height: 200px;
+}
+h3{
+    text-align: center;
+}
+.formcontainer a{
+    text-decoration: none;
+    color: blue;
+
+}
+span > p{
+    color: red;
+}

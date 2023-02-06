@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    margin-left: 20px;
+    font-family:monospace
+}
+.kerala h2{
+    font-size: 50px;
+    padding-top: 150px;
+    color:#ff0040 ;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.card a{
+    text-align: center;
+    text-decoration: none;
+    color:#ff0040;
+    font-weight: bold;
+}
+.card{
+    margin-bottom: 1.2rem;
+}
+.welcome{
+    padding-top: 200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left:-15px ;
+    padding-bottom: 100px;
+}
+.left{
+    background: #ff0040;
+    color: black;
+    
+}
+
